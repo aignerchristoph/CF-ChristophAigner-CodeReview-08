@@ -1,10 +1,5 @@
 import React from 'react';
 import "./FooterComponent.css"
-import AboutComponent from "./AboutComponent"
-import HomeHeadComponent from "./HomeHeadComponent"
-import BuyHeadComponent from "./BuyHeadComponent"
-import RentHeadComponent from "./RentHeadComponent"
-import ContactHeadComponent from "./ContactHeadComponent"
 import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 
 function FooterComponent() {

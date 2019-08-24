@@ -6,7 +6,6 @@ import ContactComponent from "./ContactComponent"
 import RentComponent from "./RentComponent"
 import BuyComponent from "./BuyComponent"
 import MainComponent from "./MainComponent"
-import AboutComponent from "./AboutComponent"
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
