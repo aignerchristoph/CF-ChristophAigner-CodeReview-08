@@ -1,0 +1,43 @@
+header {
+	background-image: url('./images.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vw;
+}
+
+
+
+
+
+#heroHeaderBox {
+	text-align: center;
+	margin-top: 10vw;
+}	
+
+
+#heroHeaderBox h1 {
+	font-size: 5vw;
+	margin: 0vw;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+	color: white;
+}
+
+#heroHeaderBox p {
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+}
+
+
+
+@media(max-width:600px){
+    #heroHeaderBox h1{
+         font-size:8vw !important;
+    }
+
+    #heroHeaderBox {
+	text-align: center;
+	margin-top: 5vw;
+}	
+}
